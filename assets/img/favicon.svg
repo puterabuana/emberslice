@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Slice Street">
+  <rect width="64" height="64" fill="#f3b52a"/>
+  <path d="M32 8 L54 50 H10 Z" fill="#e23b2e" stroke="#14110d" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M10 50 H54" fill="none" stroke="#14110d" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="32" cy="26" r="4" fill="#14110d"/>
+  <circle cx="24" cy="38" r="3.4" fill="#14110d"/>
+  <circle cx="40" cy="38" r="3.4" fill="#14110d"/>
+</svg>

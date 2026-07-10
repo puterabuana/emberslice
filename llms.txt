@@ -1,0 +1,17 @@
+# Ember Slice
+
+> Ember Slice is a coal-fired pizza and slice shop website for Williamsburg, Brooklyn.
+
+## Site sections
+
+- [Home](https://emberslice.com/): Brand overview, signature pies, and shop highlights.
+- [Menu](https://emberslice.com/menu.html): Slices, whole pies, sides, and drinks.
+- [The Joint](https://emberslice.com/about.html): Story, oven, and house rules.
+- [Find Us](https://emberslice.com/visit.html): Address, hours, directions, and ordering.
+- [The Oven](https://emberslice.com/journal.html): Dough, sauce, and shop articles.
+- [48-hour dough article](https://emberslice.com/journal-cold-ferment-dough.html): Cold-fermentation guide.
+
+## Content notes
+
+- The site is static HTML with JSON-LD, sitemap.xml, robots.txt, and canonical URLs.
+- Contact, location, opening hours, and ordering details should be verified before treating them as production business data.

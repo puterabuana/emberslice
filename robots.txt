@@ -1,0 +1,9 @@
+# Ember Slice — robots.txt
+User-agent: *
+Allow: /
+
+# Keep utility pages out of the index
+Disallow: /privacy.html
+Disallow: /404.html
+
+Sitemap: https://emberslice.com/sitemap.xml

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ember Slice | Coal-Fired Brooklyn Pizza &amp; Slice Shop</title>
+  <meta name="description" content="Ember Slice is a coal-fired pizza joint in Williamsburg, Brooklyn. 48-hour cold-fermented dough, whole-milk mozz, and jumbo slices by the pie or the wedge. Open late." />
+  <link rel="canonical" href="https://emberslice.com/" />
+  <meta name="theme-color" content="#e23b2e" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Ember Slice" />
+  <meta property="og:title" content="Ember Slice | Coal-Fired Brooklyn Pizza" />
+  <meta property="og:description" content="48-hour dough, coal-fired char, jumbo slices. A Williamsburg pizza joint. No forks." />
+  <meta property="og:url" content="https://emberslice.com/" />
+  <meta property="og:image" content="https://emberslice.com/assets/img/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Ember Slice | Coal-Fired Brooklyn Pizza" />
+  <meta name="twitter:description" content="48-hour dough, coal-fired char, jumbo slices in Williamsburg. No forks." />
+  <meta name="twitter:image" content="https://emberslice.com/assets/img/og-image.jpg" />
+
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/assets/img/favicon.svg" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+
+  <!-- Structured data: restaurant -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Ember Slice",
+    "image": "https://emberslice.com/assets/img/og-image.jpg",
+    "@id": "https://emberslice.com/#restaurant",
+    "url": "https://emberslice.com/",
+    "telephone": "+1-718-555-0199",
+    "priceRange": "$$",
+    "servesCuisine": ["Pizza", "Italian", "Coal-Fired Pizza"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "211 Wythe Avenue",
+      "addressLocality": "Brooklyn",
+      "addressRegion": "NY",
+      "postalCode": "11249",
+      "addressCountry": "US"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 40.7196, "longitude": -73.9634 },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday"], "opens": "11:00", "closes": "23:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday","Saturday"], "opens": "11:00", "closes": "03:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Sunday"], "opens": "12:00", "closes": "22:00" }
+    ],
+    "menu": "https://emberslice.com/menu.html",
+    "acceptsReservations": "False",
+    "sameAs": [
+      "https://www.instagram.com/emberslice",
+      "https://www.tiktok.com/@emberslice"
+    ],
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "1240" }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="/" aria-label="Ember Slice — home">
+        <svg class="mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" fill="#f3b52a"/><path d="M32 8 L54 50 H10 Z" fill="#e23b2e" stroke="#14110d" stroke-width="4" stroke-linejoin="round"/><path d="M10 50 H54" fill="none" stroke="#14110d" stroke-width="7" stroke-linecap="round"/><circle cx="32" cy="26" r="4" fill="#14110d"/><circle cx="24" cy="38" r="3.4" fill="#14110d"/><circle cx="40" cy="38" r="3.4" fill="#14110d"/></svg>
+        <span>Ember Slice<small>Coal-Fired · BK</small></span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="/" aria-current="page">Home</a></li>
+        <li><a href="/menu.html">Menu</a></li>
+        <li><a href="/about.html">The Joint</a></li>
+        <li><a href="/journal.html">The Oven</a></li>
+        <li><a href="/visit.html">Find Us</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a class="btn btn--ink" href="/visit.html#order">Order Now</a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">🍕 Est. Brooklyn · No Forks</span>
+          <h1 class="h-lead">Coal-fired<br/><em>slices</em> that<br/>bite back.</h1>
+          <p class="lede">A Williamsburg pizza joint running a 900° coal oven since day one. Dough cold-fermented 48 hours, whole-milk mozz, char on the crust. Grab a jumbo slice or take the whole pie.</p>
+          <div class="hero-actions">
+            <a class="btn" href="/menu.html">See the menu <svg class="arw" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <a class="btn btn--green" href="/visit.html#order">Order online</a>
+          </div>
+          <div class="hero-stats">
+            <div><b>900°</b><span>Coal oven</span></div>
+            <div><b>48h</b><span>Dough ferment</span></div>
+            <div><b>4.8★</b><span>1,240 reviews</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-art">
+            <img src="/assets/img/ph-pie.jpg" width="700" height="700" alt="A coal-fired pizza with blistered crust and bubbling mozzarella fresh from the oven" fetchpriority="high" />
+          </div>
+          <div class="sticker sticker--tr"><small>Jumbo slice</small><b>$4.50</b></div>
+          <div class="sticker sticker--bl"><small>Whole pie</small><b>$26</b></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TICKER ============ -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>🍕 Hot &amp; Fresh</span><span>·</span><span>Open 'til 3am Fri–Sat</span><span>·</span><span>Cash &amp; Card</span><span>·</span><span>No Forks</span><span>·</span><span>Coal-Fired</span><span>·</span>
+        <span>🍕 Hot &amp; Fresh</span><span>·</span><span>Open 'til 3am Fri–Sat</span><span>·</span><span>Cash &amp; Card</span><span>·</span><span>No Forks</span><span>·</span><span>Coal-Fired</span><span>·</span>
+      </div>
+    </div>
+
+    <!-- ============ FEATURES ============ -->
+    <section class="section">
+      <div class="wrap">
+        <div class="head reveal">
+          <span class="eyebrow">Why it hits</span>
+          <h2>Four rules. Zero shortcuts.</h2>
+          <p>Everything we do answers one question: would we wait in line for it? If not, it doesn't leave the oven.</p>
+        </div>
+        <div class="cards">
+          <article class="card reveal">
+            <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 14a8 8 0 0 1 16 0z" stroke-linejoin="round"/><path d="M2 14h20M7 10c0-2 2-2 2-4M12 9c0-2 2-2 2-4M17 10c0-2 2-2 2-4" stroke-linecap="round"/></svg></div>
+            <h3>Coal-fired</h3>
+            <p>A 900° coal oven blisters the crust in 90 seconds — smoky char, blistered edge, never soggy.</p>
+          </article>
+          <article class="card reveal">
+            <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9 9h.01M15 15h.01M15 9h.01M9 15h.01" stroke-linecap="round"/></svg></div>
+            <h3>48-hour dough</h3>
+            <p>Cold-fermented two full days for that airy, chewy crumb and a crust you'll actually finish.</p>
+          </article>
+          <article class="card reveal">
+            <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3s6 4 6 9a6 6 0 0 1-12 0c0-5 6-9 6-9z" stroke-linejoin="round"/></svg></div>
+            <h3>Real ingredients</h3>
+            <p>Whole-milk mozz, San Marzano tomatoes, and pepperoni that cups and crisps at the edges.</p>
+          </article>
+          <article class="card reveal">
+            <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <h3>Open late</h3>
+            <p>Slices out the window 'til 3am on weekends. Last call for pizza is a real institution here.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STORY SPLIT ============ -->
+    <section class="section section--tight">
+      <div class="wrap split">
+        <div class="split-media reveal">
+          <img src="/assets/img/ph-counter.jpg" width="600" height="450" loading="lazy" alt="The counter at Ember Slice with pies lined up under the heat lamps" />
+        </div>
+        <div class="split-copy reveal">
+          <span class="eyebrow">The joint</span>
+          <h2>Started with one oven and a lotta nerve.</h2>
+          <p>In 2014 we took over a skinny storefront on Wythe Ave with a second-hand coal oven and one idea: make the slice we grew up chasing, and never phone it in. Ten years later the line still wraps the corner.</p>
+          <ul class="tick-list">
+            <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Family-run — you'll meet us at the counter</li>
+            <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Over 90,000 pies pulled last year</li>
+            <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Dough made fresh in-house every morning</li>
+          </ul>
+          <a class="btn btn--ghost" href="/about.html">Read the whole story <svg class="arw" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAVOURITES ============ -->
+    <section class="section" style="background:var(--paper-2); border-top:var(--bd); border-bottom:var(--bd)">
+      <div class="wrap">
+        <div class="head reveal">
+          <span class="eyebrow">The heavy hitters</span>
+          <h2>Slices they line up for.</h2>
+          <p>The pies our regulars order without even looking at the board.</p>
+        </div>
+        <div class="drinks">
+          <article class="drink reveal">
+            <div class="drink-art"><img src="/assets/img/ph-slice-cheese.jpg" width="400" height="320" loading="lazy" alt="A classic cheese slice with blistered crust" /></div>
+            <div class="drink-body"><h3>The Classic <span>$4.50</span></h3><p>Whole-milk mozz, San Marzano sauce, coal-fired char. The one that started it all.</p></div>
+          </article>
+          <article class="drink reveal">
+            <div class="drink-art"><img src="/assets/img/ph-slice-pep.jpg" width="400" height="320" loading="lazy" alt="A pepperoni slice with crisped cupping pepperoni" /></div>
+            <div class="drink-body"><h3>Cup &amp; Char Pep <span>$5.25</span></h3><p>Old-school pepperoni that cups and crisps, with a hit of hot honey on top.</p></div>
+          </article>
+          <article class="drink reveal">
+            <div class="drink-art"><img src="/assets/img/ph-grandma.jpg" width="400" height="320" loading="lazy" alt="A slice of pizza topped with rocket and cherry tomatoes" /></div>
+            <div class="drink-body"><h3>The Grandma <span>$5.50</span></h3><p>Square, thin, crispy-bottomed, garlic-forward sauce, fresh basil. A Brooklyn institution.</p></div>
+          </article>
+          <article class="drink reveal">
+            <div class="drink-art"><img src="/assets/img/ph-whitepie.jpg" width="400" height="320" loading="lazy" alt="A white pie with ricotta dollops" /></div>
+            <div class="drink-body"><h3>The White Pie <span>$6.00</span></h3><p>No red sauce — ricotta, mozz, garlic, olive oil, cracked pepper. Don't sleep on it.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section dark-block">
+      <div class="wrap">
+        <div class="head reveal">
+          <span class="eyebrow">Word on the street</span>
+          <h2>Loved by the whole block.</h2>
+          <p>A few reviews from the folks who keep the line moving.</p>
+        </div>
+        <div class="quotes">
+          <figure class="quote reveal">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote><p>"That coal char is unreal. I've eaten pizza on three continents and I still drag people here. The cup-and-char pep is the move."</p></blockquote>
+            <figcaption><footer><span class="av">MA</span><div><b>Maya A.</b><span>Regular since '19</span></div></footer></figcaption>
+          </figure>
+          <figure class="quote reveal">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote><p>"48-hour dough is no gimmick — the crust is chewy, blistered, and I finished every bite including the bones. No forks needed."</p></blockquote>
+            <figcaption><footer><span class="av">DL</span><div><b>Danny L.</b><span>Local guide</span></div></footer></figcaption>
+          </figure>
+          <figure class="quote reveal">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote><p>"2am, wrapped around the corner, worth every minute. This is the last-call slice the neighborhood deserves."</p></blockquote>
+            <figcaption><footer><span class="av">SR</span><div><b>Sofia R.</b><span>Weekend regular</span></div></footer></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ THE OVEN (journal) ============ -->
+    <section class="section">
+      <div class="wrap">
+        <div class="head reveal">
+          <span class="eyebrow">Fresh outta the oven</span>
+          <h2>Stories from the shop.</h2>
+          <p>Dough science, sauce secrets, and what's going down at 211 Wythe.</p>
+        </div>
+        <div class="posts">
+          <article class="post reveal">
+            <a class="post-art" href="/journal-cold-ferment-dough.html" aria-label="Read: Why we ferment our dough for 48 hours"><img src="/assets/img/ph-dough.jpg" width="400" height="225" loading="lazy" alt="Hands reaching for slices of a fresh pizza" /></a>
+            <div class="post-body">
+              <span class="post-meta">Dough Lab · 6 min</span>
+              <h3>Why we ferment dough 48 hours</h3>
+              <p>Cold, slow, and patient. Here's what two days in the fridge does to flavour, texture, and that blistered crust.</p>
+              <a class="read" href="/journal-cold-ferment-dough.html">Read it <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            </div>
+          </article>
+          <article class="post reveal">
+            <div class="post-art"><img src="/assets/img/ph-oven.jpg" width="400" height="225" loading="lazy" alt="The glowing coal oven at Ember Slice" /></div>
+            <div class="post-body">
+              <span class="post-meta">The Oven · 5 min</span>
+              <h3>Coal vs. wood vs. gas: the char test</h3>
+              <p>We fired the same pie three ways. Coal won — here's exactly why 900° of anthracite makes the difference.</p>
+              <a class="read" href="/journal.html">Read it <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            </div>
+          </article>
+          <article class="post reveal">
+            <div class="post-art"><img src="/assets/img/ph-square.jpg" width="400" height="225" loading="lazy" alt="A loaded pizza fresh out of the oven" /></div>
+            <div class="post-body">
+              <span class="post-meta">Shop News · 3 min</span>
+              <h3>The Vodka Grandma is back (finally)</h3>
+              <p>Our most-requested special returns Thursday — creamy vodka sauce on a crispy square. Here's the drop.</p>
+              <a class="read" href="/journal.html">Read it <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA BAND ============ -->
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="cta-band cta-band--photo reveal" style="--cta-bg:url('/assets/img/ph-whitepie.jpg')">
+          <h2>Get a hot slice in your hand.</h2>
+          <p>Order online for pickup, walk up to the window, or call it in. No reservations, no forks, no fuss.</p>
+          <a class="btn btn--cream" href="/visit.html#order">Order online <svg class="arw" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="foot-grid">
+        <div>
+          <a class="brand" href="/" aria-label="Ember Slice — home">
+            <svg class="mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" fill="#f3b52a"/><path d="M32 8 L54 50 H10 Z" fill="#e23b2e" stroke="#14110d" stroke-width="4" stroke-linejoin="round"/><path d="M10 50 H54" fill="none" stroke="#14110d" stroke-width="7" stroke-linecap="round"/><circle cx="32" cy="26" r="4" fill="#14110d"/><circle cx="24" cy="38" r="3.4" fill="#14110d"/><circle cx="40" cy="38" r="3.4" fill="#14110d"/></svg>
+            <span>Ember Slice</span>
+          </a>
+          <p class="foot-about">A coal-fired pizza joint in Williamsburg, Brooklyn. Jumbo slices, whole pies, open late. No forks.</p>
+          <div class="socials">
+            <a href="https://www.instagram.com/emberslice" aria-label="Instagram" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+            <a href="https://www.tiktok.com/@emberslice" aria-label="TikTok" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 4c0 3 2 5 5 5M15 4v9.5a4.5 4.5 0 1 1-4-4.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <a href="https://www.facebook.com/emberslice" aria-label="Facebook" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H7v4h3v6h4v-6h3l1-4h-4V8a1 1 0 0 1 1-1z" stroke-linejoin="round"/></svg></a>
+          </div>
+        </div>
+        <div class="foot-col">
+          <h4>Eat</h4>
+          <ul>
+            <li><a href="/menu.html">Menu</a></li>
+            <li><a href="/about.html">The Joint</a></li>
+            <li><a href="/journal.html">The Oven</a></li>
+            <li><a href="/visit.html">Find Us</a></li>
+          </ul>
+        </div>
+        <div class="foot-col">
+          <h4>Find Us</h4>
+          <ul>
+            <li><a href="https://maps.google.com/?q=211+Wythe+Ave+Brooklyn+NY" rel="noopener">211 Wythe Avenue<br/>Brooklyn, NY 11249</a></li>
+            <li><a href="tel:+17185550199">(718) 555-0199</a></li>
+            <li><a href="mailto:eat@emberslice.com">eat@emberslice.com</a></li>
+          </ul>
+        </div>
+        <div class="foot-col">
+          <h4>Hours</h4>
+          <ul>
+            <li>Mon–Thu · 11am – 11pm</li>
+            <li>Fri–Sat · 11am – 3am</li>
+            <li>Sun · 12pm – 10pm</li>
+            <li><a href="/visit.html#order">Order online →</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© <span data-year>2026</span> Ember Slice Pizza. All rights reserved.</span>
+        <span class="sig-line">Hot slices. No forks.</span>
+        <span><a href="/privacy.html">Privacy</a> · <a href="/visit.html">Contact</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>
