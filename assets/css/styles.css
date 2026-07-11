@@ -135,7 +135,7 @@ h1, h2, h3, h4 {
 
 /* ---------- Buttons ---------- */
 .btn {
-  --bg: var(--red);
+  --bg: var(--red-d);
   --fg: var(--cream);
   display: inline-flex;
   align-items: center;
@@ -191,7 +191,7 @@ h1, h2, h3, h4 {
 .brand small {
   font-family: var(--font-mono);
   font-size: .56rem; letter-spacing: .24em;
-  text-transform: uppercase; color: var(--red);
+  text-transform: uppercase; color: var(--red-d);
   margin-top: .3rem; font-weight: 700;
 }
 
@@ -237,7 +237,7 @@ h1, h2, h3, h4 {
   border-top: var(--bd); border-bottom: var(--bd);
 }
 .ticker {
-  background: var(--red); color: var(--cream);
+  background: var(--red-d); color: var(--cream);
   border-top: var(--bd); border-bottom: var(--bd);
   overflow: hidden; white-space: nowrap;
   padding: .55rem 0;
@@ -538,7 +538,7 @@ h1, h2, h3, h4 {
   border-top: var(--bd-thick);
   padding: clamp(3rem, 6vw, 4.5rem) 0 2rem;
 }
-.site-footer h4 { color: var(--yellow); font-size: 1.15rem; margin-bottom: 1rem; }
+.site-footer h3, .site-footer h4 { color: var(--yellow); font-size: 1.15rem; margin-bottom: 1rem; }
 .foot-grid {
   display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr;
   gap: 2rem; padding-bottom: 2.5rem;
@@ -560,7 +560,7 @@ h1, h2, h3, h4 {
   padding-top: 1.8rem; font-family: var(--font-mono); font-size: .78rem; color: #b8ad99;
 }
 .foot-bottom a:hover { color: var(--yellow); }
-.sig-line { color: var(--red); font-weight: 700; }
+.sig-line { color: #e94b3f; font-weight: 700; }
 
 /* ---------- Article ---------- */
 .article { max-width: 720px; margin-inline: auto; }
