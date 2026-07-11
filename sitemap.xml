@@ -7,31 +7,31 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://emberslice.com/menu.html</loc>
+    <loc>https://emberslice.com/menu</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://emberslice.com/about.html</loc>
+    <loc>https://emberslice.com/about</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://emberslice.com/visit.html</loc>
+    <loc>https://emberslice.com/visit</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://emberslice.com/journal.html</loc>
+    <loc>https://emberslice.com/journal</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://emberslice.com/journal-cold-ferment-dough.html</loc>
+    <loc>https://emberslice.com/journal-cold-ferment-dough</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
