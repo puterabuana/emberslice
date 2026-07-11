@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Ember Slice | Coal-Fired Brooklyn Pizza &amp; Slice Shop</title>
-  <meta name="description" content="Ember Slice is a coal-fired pizza joint in Williamsburg, Brooklyn. 48-hour cold-fermented dough, whole-milk mozz, and jumbo slices by the pie or the wedge. Open late." />
+  <meta name="description" content="Ember Slice serves coal-fired pizza in Williamsburg, Brooklyn, with 48-hour dough, whole-milk mozzarella, and jumbo slices. Open late for pies and wedges." />
   <link rel="canonical" href="https://emberslice.com/" />
   <meta name="theme-color" content="#e23b2e" />
 
@@ -24,8 +24,10 @@
   <meta name="twitter:description" content="48-hour dough, coal-fired char, jumbo slices in Williamsburg. No forks." />
   <meta name="twitter:image" content="https://emberslice.com/assets/img/og-image.jpg" />
 
+  <link rel="icon" href="/assets/img/favicon.ico" sizes="any" />
   <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="/assets/img/favicon.svg" />
+  <link rel="icon" href="/assets/img/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png" sizes="180x180" />
   <link rel="manifest" href="/site.webmanifest" />
 
   <!-- Fonts -->
@@ -33,7 +35,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <link rel="stylesheet" href="/assets/css/styles.min.css" />
 
   <!-- Structured data: restaurant -->
   <script type="application/ld+json">
@@ -118,7 +120,7 @@
 
         <div class="hero-visual reveal">
           <div class="hero-art">
-            <img src="/assets/img/ph-pie.jpg" width="700" height="700" alt="A coal-fired pizza with blistered crust and bubbling mozzarella fresh from the oven" fetchpriority="high" />
+            <img src="/assets/img/ph-pie-800.webp" srcset="/assets/img/ph-pie-480.webp 480w, /assets/img/ph-pie-800.webp 800w, /assets/img/ph-pie-1200.webp 1200w" sizes="(max-width: 900px) calc(100vw - 2.4rem), 610px" width="800" height="534" alt="A coal-fired pizza with blistered crust and bubbling mozzarella fresh from the oven" fetchpriority="high" />
           </div>
           <div class="sticker sticker--tr"><small>Jumbo slice</small><b>$4.50</b></div>
           <div class="sticker sticker--bl"><small>Whole pie</small><b>$26</b></div>
@@ -171,7 +173,7 @@
     <section class="section section--tight">
       <div class="wrap split">
         <div class="split-media reveal">
-          <img src="/assets/img/ph-counter.jpg" width="600" height="450" loading="lazy" alt="The counter at Ember Slice with pies lined up under the heat lamps" />
+          <img src="/assets/img/ph-counter-800.webp" srcset="/assets/img/ph-counter-480.webp 480w, /assets/img/ph-counter-800.webp 800w, /assets/img/ph-counter-1200.webp 1200w" sizes="(max-width: 900px) calc(100vw - 2.4rem), 50vw" width="800" height="534" loading="lazy" decoding="async" alt="The counter at Ember Slice with pies lined up under the heat lamps" />
         </div>
         <div class="split-copy reveal">
           <span class="eyebrow">The joint</span>
@@ -188,7 +190,7 @@
     </section>
 
     <!-- ============ FAVOURITES ============ -->
-    <section class="section" style="background:var(--paper-2); border-top:var(--bd); border-bottom:var(--bd)">
+    <section class="section section--paper-bordered">
       <div class="wrap">
         <div class="head reveal">
           <span class="eyebrow">The heavy hitters</span>
@@ -197,19 +199,19 @@
         </div>
         <div class="drinks">
           <article class="drink reveal">
-            <div class="drink-art"><img src="/assets/img/ph-slice-cheese.jpg" width="400" height="320" loading="lazy" alt="A classic cheese slice with blistered crust" /></div>
+            <div class="drink-art"><img src="/assets/img/ph-slice-cheese-800.webp" srcset="/assets/img/ph-slice-cheese-480.webp 480w, /assets/img/ph-slice-cheese-800.webp 800w, /assets/img/ph-slice-cheese-1000.webp 1000w" sizes="(max-width: 640px) calc(100vw - 2.4rem), (max-width: 980px) 50vw, 25vw" width="800" height="534" loading="lazy" decoding="async" alt="A classic cheese slice with blistered crust" /></div>
             <div class="drink-body"><h3>The Classic <span>$4.50</span></h3><p>Whole-milk mozz, San Marzano sauce, coal-fired char. The one that started it all.</p></div>
           </article>
           <article class="drink reveal">
-            <div class="drink-art"><img src="/assets/img/ph-slice-pep.jpg" width="400" height="320" loading="lazy" alt="A pepperoni slice with crisped cupping pepperoni" /></div>
+            <div class="drink-art"><img src="/assets/img/ph-slice-pep-800.webp" srcset="/assets/img/ph-slice-pep-480.webp 480w, /assets/img/ph-slice-pep-800.webp 800w, /assets/img/ph-slice-pep-1000.webp 1000w" sizes="(max-width: 640px) calc(100vw - 2.4rem), (max-width: 980px) 50vw, 25vw" width="800" height="1198" loading="lazy" decoding="async" alt="A pepperoni slice with crisped cupping pepperoni" /></div>
             <div class="drink-body"><h3>Cup &amp; Char Pep <span>$5.25</span></h3><p>Old-school pepperoni that cups and crisps, with a hit of hot honey on top.</p></div>
           </article>
           <article class="drink reveal">
-            <div class="drink-art"><img src="/assets/img/ph-grandma.jpg" width="400" height="320" loading="lazy" alt="A slice of pizza topped with rocket and cherry tomatoes" /></div>
+            <div class="drink-art"><img src="/assets/img/ph-grandma-800.webp" srcset="/assets/img/ph-grandma-480.webp 480w, /assets/img/ph-grandma-800.webp 800w, /assets/img/ph-grandma-1000.webp 1000w" sizes="(max-width: 640px) calc(100vw - 2.4rem), (max-width: 980px) 50vw, 25vw" width="800" height="534" loading="lazy" decoding="async" alt="A slice of pizza topped with rocket and cherry tomatoes" /></div>
             <div class="drink-body"><h3>The Grandma <span>$5.50</span></h3><p>Square, thin, crispy-bottomed, garlic-forward sauce, fresh basil. A Brooklyn institution.</p></div>
           </article>
           <article class="drink reveal">
-            <div class="drink-art"><img src="/assets/img/ph-whitepie.jpg" width="400" height="320" loading="lazy" alt="A white pie with ricotta dollops" /></div>
+            <div class="drink-art"><img src="/assets/img/ph-whitepie-800.webp" srcset="/assets/img/ph-whitepie-480.webp 480w, /assets/img/ph-whitepie-800.webp 800w, /assets/img/ph-whitepie-1000.webp 1000w" sizes="(max-width: 640px) calc(100vw - 2.4rem), (max-width: 980px) 50vw, 25vw" width="800" height="1085" loading="lazy" decoding="async" alt="A white pie with ricotta dollops" /></div>
             <div class="drink-body"><h3>The White Pie <span>$6.00</span></h3><p>No red sauce — ricotta, mozz, garlic, olive oil, cracked pepper. Don't sleep on it.</p></div>
           </article>
         </div>
@@ -254,7 +256,7 @@
         </div>
         <div class="posts">
           <article class="post reveal">
-            <a class="post-art" href="/journal-cold-ferment-dough.html" aria-label="Read: Why we ferment our dough for 48 hours"><img src="/assets/img/ph-dough.jpg" width="400" height="225" loading="lazy" alt="Hands reaching for slices of a fresh pizza" /></a>
+            <a class="post-art" href="/journal-cold-ferment-dough.html" aria-label="Read: Why we ferment our dough for 48 hours"><img src="/assets/img/ph-dough-800.webp" srcset="/assets/img/ph-dough-480.webp 480w, /assets/img/ph-dough-800.webp 800w, /assets/img/ph-dough-1000.webp 1000w" sizes="(max-width: 760px) calc(100vw - 2.4rem), 33vw" width="800" height="640" loading="lazy" decoding="async" alt="Hands reaching for slices of a fresh pizza" /></a>
             <div class="post-body">
               <span class="post-meta">Dough Lab · 6 min</span>
               <h3>Why we ferment dough 48 hours</h3>
@@ -263,7 +265,7 @@
             </div>
           </article>
           <article class="post reveal">
-            <div class="post-art"><img src="/assets/img/ph-oven.jpg" width="400" height="225" loading="lazy" alt="The glowing coal oven at Ember Slice" /></div>
+            <div class="post-art"><img src="/assets/img/ph-oven-800.webp" srcset="/assets/img/ph-oven-480.webp 480w, /assets/img/ph-oven-800.webp 800w, /assets/img/ph-oven-1200.webp 1200w" sizes="(max-width: 760px) calc(100vw - 2.4rem), 33vw" width="800" height="534" loading="lazy" decoding="async" alt="The glowing coal oven at Ember Slice" /></div>
             <div class="post-body">
               <span class="post-meta">The Oven · 5 min</span>
               <h3>Coal vs. wood vs. gas: the char test</h3>
@@ -272,7 +274,7 @@
             </div>
           </article>
           <article class="post reveal">
-            <div class="post-art"><img src="/assets/img/ph-square.jpg" width="400" height="225" loading="lazy" alt="A loaded pizza fresh out of the oven" /></div>
+            <div class="post-art"><img src="/assets/img/ph-square-800.webp" srcset="/assets/img/ph-square-480.webp 480w, /assets/img/ph-square-800.webp 800w, /assets/img/ph-square-1000.webp 1000w" sizes="(max-width: 760px) calc(100vw - 2.4rem), 33vw" width="800" height="534" loading="lazy" decoding="async" alt="A loaded pizza fresh out of the oven" /></div>
             <div class="post-body">
               <span class="post-meta">Shop News · 3 min</span>
               <h3>The Vodka Grandma is back (finally)</h3>
@@ -287,7 +289,7 @@
     <!-- ============ CTA BAND ============ -->
     <section class="section section--tight">
       <div class="wrap">
-        <div class="cta-band cta-band--photo reveal" style="--cta-bg:url('/assets/img/ph-whitepie.jpg')">
+        <div class="cta-band cta-band--photo cta-band--whitepie reveal">
           <h2>Get a hot slice in your hand.</h2>
           <p>Order online for pickup, walk up to the window, or call it in. No reservations, no forks, no fuss.</p>
           <a class="btn btn--cream" href="/visit.html#order">Order online <svg class="arw" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
@@ -347,6 +349,6 @@
     </div>
   </footer>
 
-  <script src="/assets/js/main.js" defer></script>
+  <script src="/assets/js/main.min.js" defer></script>
 </body>
 </html>
